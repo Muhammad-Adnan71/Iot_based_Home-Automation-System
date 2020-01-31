@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".feature">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_on_off"
+        android:id="@+id/wifi"
+        android:onClick="wifi_connect"
+
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginRight="185dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_your_device_for_desirable_opearation"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/lamp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+
+        android:contentDescription="@string/todo2"
+        android:layout_marginStart="20dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:onClick="led_1"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginEnd="130dp" />
+
+    <SeekBar
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginRight="210dp"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/fans"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+
+        android:contentDescription="@string/todo2"
+        android:layout_marginStart="20dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginEnd="130dp" />
+
+    <SeekBar
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginRight="210dp"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/acc"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="20dp"
+
+        android:contentDescription="@string/todo2"
+        android:layout_marginStart="20dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3" />
+
+    <SeekBar
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginRight="210dp"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+</RelativeLayout>

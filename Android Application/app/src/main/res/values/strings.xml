@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HomeAuto</string>
+    <string name="home_automation_system">Home Automation System</string>
+    <string name="home_automation_system1">Home Automation System</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="log_in">Log in</string>
+    <string name="todo">TODO</string>
+    <string name="by_going_on_youagree_to_terms_of_service_and_privacy">By going on, youagree to terms of service and privacy</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="todo1">TODO</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email_address1">Email Address</string>
+    <string name="phone_no">Phone No</string>
+    <string name="set_password">Set Password</string>
+    <string name="last_name">Last Name</string>
+    <string name="name1">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="name2">Name</string>
+    <string name="create">Create</string>
+    <string name="username">Username</string>
+    <string name="username1">Username</string>
+    <string name="name3">Name</string>
+    <string name="todo2">TODO</string>
+    <string name="create_your_account">Create your Account</string>
+    <string name="to_continue_to_application">to continue to application</string>
+    <string name="email_address">Email Address</string>
+    <string name="hi">Hi!</string>
+    <string name="select_the_aplliance_accordin_to_your_desire">Select the aplliance accordin to your desire</string>
+    <string name="hii">Hi!</string>
+    <string name="select_your_device_for_desirable_opearation">Select your device for desirable opearation</string>
+    <string name="todo3">TODO</string>
+    <string name="grid_layout">GRID LAYOUT</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="room_1">Room 1</string>
+    <string name="room_2">Room 2</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="room_4">Room 4</string>
+    <string name="garden">Garden</string>
+    <string name="home_layout">Home Layout</string>
+    <string name="select_the_area_in_which_you_want_to_perform_action">Select the area in which you want to perform action</string>
+    <string name="select_a_particular_area">Select a particular area</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="wifi_on_off">Wifi On/Off</string>
+
+</resources>
